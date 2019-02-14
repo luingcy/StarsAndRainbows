@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+
+	<script>
+			setTimeout(function(){
+				$(document).ready(function(){
+		      	  $(".start").fadeIn(3000);
+				});
+			},14000);
+
+	</script>
+
+
+</head>
+	<div >
+	    <video muted autoplay poster="img/videoframe.jpg" class="introvideo" id="fullscreen">
+	        <source src="intro2.mp4" type="video/mp4">
+  	  </video>
+	</div>
+<body>
+
+	<div class='start' style="display:none;"">Click to start</div>
+	<div id="button" style="visibility:hidden;"></div>
+
+	<script>
+		document.getElementById('button').addEventListener("click", redirect);
+
+		function redirect() {
+			 window.location = "menu.HTML";
+		}
+		setTimeout(function(){
+			document.getElementById('button').style.visibility = "visible";
+		},14000);
+
+	</script>
+</body>
+</html>
+

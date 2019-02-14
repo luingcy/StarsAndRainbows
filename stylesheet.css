@@ -1,0 +1,196 @@
+* {
+   background-color: #000000; 
+}
+
+.fullscreen {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.introvideo {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: auto;
+
+
+    transform: translate(-50%, -50%);
+}
+
+.game {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-width: 40px;
+    border-style: solid;
+    border-color: grey;
+    border-radius: 100px;
+    background-color: grey;
+}
+
+footer {
+    color: white;
+    position: sticky;
+     ttom: 10%;
+    right: 10%;
+
+}
+
+a:link {
+    color: grey;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: grey;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: grey;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+
+
+
+.trail {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+   overflow: hidden;
+    z-index: -100;
+}
+
+
+
+#button {
+    position: fixed;
+    top: 47.5%;
+    left: 48.4%;
+    width: 42px;
+    height: 42px;
+    background-color: #fbf07d;
+    border-radius: 100px;
+    z-index: 100;
+}
+
+#game1button {
+    position: fixed;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    border-width: 20px;
+    border-style: solid;
+    border-color: grey;
+    background-image: url('stars-icon.gif');
+   }
+
+#game2button {
+    position: fixed;
+    top: 40%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    border-width: 20px;
+    border-style: solid;
+    border-color: grey;
+    background-image: url('rainbow-icon2.gif');
+
+
+}
+
+.gamebutton {
+    border-radius: 300px;
+    width: 300px;
+    height: 300px;
+    transition:height 0.5s;
+
+}
+
+.gamebutton:hover {
+    height: 360px;
+    width: 360px;
+}
+
+.start {
+    position: fixed;
+    color: white;
+    font-family: Helvetica;
+    top: 42%;
+    left: 45.5%;
+    font-size: 30px;
+}
+
+#back {
+    position: fixed;
+    top: 2%;
+    left: 2%;
+    width: 42px;
+    height: 42px;
+    background-color: white;
+    border-radius: 100px;
+    z-index: 100;
+}
+
+#menutext {
+     position: fixed;
+    color: white;
+    font-family:Helvetica;
+    background-color : transparent;
+    top: 7.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 75px;
+}
+
+#Name {
+     position: fixed;
+    color: grey;
+    font-family:Helvetica;
+    background-color : transparent;
+    top: 15%;
+    left: 47%;
+    transform: translate(0%, 0%);
+    font-size: 20px;
+}
+
+
+#game1title {
+   position: fixed;
+    color: white;
+    font-family:Helvetica;
+    background-color : transparent;
+    top: 65%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+}
+
+#game2title {
+   position: fixed;
+    color: white;
+    font-family:Helvetica;
+    background-color : transparent;
+    top: 65%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+}
