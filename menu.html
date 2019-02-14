@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>menu</title>
+    <script src="libraries/p5.js" type="text/javascript"></script>
+     <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+     <script src="libraries/jquery-3.1.1.min.js"></script>
+
+    <script src="libraries/p5.dom.js" type="text/javascript"></script>
+    <script src="libraries/p5.sound.js" type="text/javascript"></script>
+
+      <script>
+      setTimeout(function(){
+        $(document).ready(function(){
+              $("#game1button").fadeIn(1000);
+              $("#game2button").fadeIn(1000);
+              $("#menutext").fadeIn(3000);
+              $("#Name").fadeIn(3000);
+              $("#game1title").fadeIn(5000);
+              $("#game2title").fadeIn(5000);
+
+        });
+      },0);
+
+  </script>
+
+  </head>
+  <body class ="trail">
+
+    <div id="game1button" class= "gamebutton" style="display:none;"></div>           
+    <div id="game2button" class= "gamebutton" style="display:none;"> </div> 
+
+    <div id="game1title" style="display:none;">Falling stars</div>    
+    <div id="game2title" style="display:none;">Chasing rainbows</div>      
+
+
+    <div id="menutext" style="display:none;">Choose your game</div> 
+    <div id="Name" style="display:none;"><a href="https://LucyJaegers.tumblr.com">Lucy Jaegers</a></div>      
+
+    <script src="mousetrail.js" type="text/javascript"></script>
+
+    <script>
+       document.getElementById('game1button').addEventListener("click", redirect);
+       function redirect() {
+        window.location = "stars.HTML";}
+   </script>
+
+   <script>     
+       document.getElementById('game2button').addEventListener("click", redirect);
+       function redirect() {
+       window.location = "rainbow.HTML";}
+   </script>
+
+  </body>
+<footer>LUCY JAEGERS</footer>
+
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>falling stars</title>
+    <script src="libraries/p5.js" type="text/javascript"></script>
+    <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+
+    <script src="libraries/p5.dom.js" type="text/javascript"></script>
+    <script src="libraries/p5.sound.js" type="text/javascript"></script>
+
+   </head>
+   <body class="game">
+
+
+     <script class="star" src="stars.js" type="text/javascript" ></script>
+
+    <script>
+        document.getElementById('back').addEventListener("click", redirect);
+
+         function redirect() {
+        window.location = "menu.HTML";
+    }
+    </script>
+  </body>
+</html>
